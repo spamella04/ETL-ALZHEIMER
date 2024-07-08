@@ -1,0 +1,418 @@
+2024-06-21 20:05:37,846:INFO:Leyendo el archivo de configuracion
+2024-06-21 20:05:37,847:INFO:Usando autenticacion de Windows
+2024-06-21 20:05:37,847:INFO:Estableciendo conexion a la base de datos
+2024-06-21 20:05:37,865:INFO:Conexion establecida
+2024-06-21 20:05:37,865:INFO:Leyendo archivo sql
+2024-06-21 20:05:37,886:ERROR:Error al leer el archivo sql: [Errno 2] No such file or directory: 'SelectTable.sql'
+2024-06-21 20:06:36,289:INFO:Leyendo el archivo de configuracion
+2024-06-21 20:06:36,289:INFO:Usando autenticacion de Windows
+2024-06-21 20:06:36,302:INFO:Estableciendo conexion a la base de datos
+2024-06-21 20:06:36,324:INFO:Conexion establecida
+2024-06-21 20:06:36,324:INFO:Leyendo archivo sql
+2024-06-21 20:06:36,324:ERROR:Error al leer el archivo sql: [Errno 2] No such file or directory: 'QuerySql.SelectTable.sql'
+2024-06-21 20:07:40,302:INFO:Leyendo el archivo de configuracion
+2024-06-21 20:07:40,316:INFO:Usando autenticacion de Windows
+2024-06-21 20:07:40,316:INFO:Estableciendo conexion a la base de datos
+2024-06-21 20:07:40,357:INFO:Conexion establecida
+2024-06-21 20:07:40,357:INFO:Leyendo archivo sql
+2024-06-21 20:07:40,357:INFO:Archivo sql leido
+2024-06-21 20:07:50,207:INFO:Leyendo el archivo de configuracion
+2024-06-21 20:07:50,207:INFO:Usando autenticacion de Windows
+2024-06-21 20:07:50,207:INFO:Estableciendo conexion a la base de datos
+2024-06-21 20:07:50,238:INFO:Conexion establecida
+2024-06-21 20:07:50,238:INFO:Leyendo archivo sql
+2024-06-21 20:07:50,238:INFO:Archivo sql leido
+2024-06-21 20:08:35,898:INFO:Leyendo el archivo de configuracion
+2024-06-21 20:08:35,898:INFO:Usando autenticacion de Windows
+2024-06-21 20:08:35,898:INFO:Estableciendo conexion a la base de datos
+2024-06-21 20:08:35,945:INFO:Conexion establecida
+2024-06-21 20:08:35,945:INFO:Leyendo archivo sql
+2024-06-21 20:08:35,945:INFO:Archivo sql leido
+2024-06-21 20:08:35,945:INFO:Extrayendo datos de la base de datos
+2024-06-21 20:08:35,945:ERROR:Error al extraer datos: name 'pd' is not defined
+2024-06-21 20:09:25,402:INFO:Leyendo el archivo de configuracion
+2024-06-21 20:09:25,402:INFO:Usando autenticacion de Windows
+2024-06-21 20:09:25,402:INFO:Estableciendo conexion a la base de datos
+2024-06-21 20:09:25,428:INFO:Conexion establecida
+2024-06-21 20:09:25,428:INFO:Leyendo archivo sql
+2024-06-21 20:09:25,428:INFO:Archivo sql leido
+2024-06-21 20:09:25,428:INFO:Extrayendo datos de la base de datos
+2024-06-21 20:09:35,076:INFO:Datos extraidos
+2024-06-21 20:10:16,184:INFO:Leyendo el archivo de configuracion
+2024-06-21 20:10:16,184:INFO:Usando autenticacion de Windows
+2024-06-21 20:10:16,184:INFO:Estableciendo conexion a la base de datos
+2024-06-21 20:10:16,223:INFO:Conexion establecida
+2024-06-21 20:10:16,226:INFO:Leyendo archivo sql
+2024-06-21 20:10:16,226:INFO:Archivo sql leido
+2024-06-21 20:10:16,226:INFO:Extrayendo datos de la base de datos
+2024-06-21 20:10:25,481:INFO:Datos extraidos
+2024-06-21 20:11:45,054:INFO:Leyendo el archivo de configuracion
+2024-06-21 20:11:45,054:INFO:Usando autenticacion de Windows
+2024-06-21 20:11:45,059:INFO:Estableciendo conexion a la base de datos
+2024-06-21 20:11:45,079:INFO:Conexion establecida
+2024-06-21 20:11:45,079:INFO:Leyendo archivo sql
+2024-06-21 20:11:45,079:INFO:Archivo sql leido
+2024-06-21 20:11:45,079:INFO:Extrayendo datos de la base de datos
+2024-06-21 20:11:55,652:INFO:Datos extraidos
+2024-06-21 20:11:57,728:INFO:Leyendo el archivo de configuracion
+2024-06-21 20:11:57,728:INFO:Usando autenticacion de Windows
+2024-06-21 20:11:57,728:INFO:Estableciendo conexion a la base de datos
+2024-06-21 20:11:57,755:INFO:Conexion establecida
+2024-06-21 20:11:57,755:INFO:Leyendo archivo sql
+2024-06-21 20:11:57,758:INFO:Archivo sql leido
+2024-06-21 20:11:57,758:INFO:Extrayendo datos de la base de datos
+2024-06-21 20:12:14,762:INFO:Datos extraidos
+2024-06-21 20:46:11,084:INFO:Leyendo el archivo de configuracion
+2024-06-21 20:46:11,084:INFO:Usando autenticacion de Windows
+2024-06-21 20:46:11,084:INFO:Estableciendo conexion a la base de datos
+2024-06-21 20:46:11,126:INFO:Conexion establecida
+2024-06-21 20:46:11,126:INFO:Leyendo archivo sql
+2024-06-21 20:46:11,126:INFO:Archivo sql leido
+2024-06-21 20:46:11,126:INFO:Extrayendo datos de la base de datos
+2024-06-21 20:46:19,781:INFO:Datos extraidos
+2024-06-23 09:42:17,058:INFO:Leyendo el archivo de configuracion
+2024-06-23 09:42:17,069:INFO:Usando autenticacion de Windows
+2024-06-23 09:42:17,069:INFO:Estableciendo conexion a la base de datos
+2024-06-23 09:42:17,101:INFO:Conexion establecida
+2024-06-23 09:42:17,101:INFO:Leyendo archivo sql
+2024-06-23 09:42:17,118:INFO:Archivo sql leido
+2024-06-23 09:42:17,118:INFO:Extrayendo datos de la base de datos
+2024-06-23 09:42:33,329:INFO:Datos extraidos
+2024-06-23 09:42:33,329:INFO:Iniciando limpieza y transformación de datos
+2024-06-23 09:42:33,539:INFO:Limpieza y transformación de datos completadas
+2024-06-23 09:42:33,539:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-23 09:43:09,953:INFO:Datos cargados a la tabla
+2024-06-23 09:49:26,107:INFO:Leyendo el archivo de configuracion
+2024-06-23 09:49:26,107:INFO:Usando autenticacion de Windows
+2024-06-23 09:49:26,107:INFO:Estableciendo conexion a la base de datos
+2024-06-23 09:49:26,141:INFO:Conexion establecida
+2024-06-23 09:49:26,141:INFO:Leyendo archivo sql
+2024-06-23 09:49:26,152:INFO:Archivo sql leido
+2024-06-23 09:49:26,152:INFO:Extrayendo datos de la base de datos
+2024-06-23 09:49:42,205:INFO:Datos extraidos
+2024-06-23 09:49:42,205:INFO:Iniciando limpieza y transformación de datos
+2024-06-23 09:49:42,831:INFO:Limpieza y transformación de datos completadas
+2024-06-23 09:49:42,831:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-23 09:49:48,399:ERROR:Error al cargar datos a la tabla: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The column name 'Geolocation' is specified more than once in the SET clause or column list of an INSERT. A column cannot be assigned more than one value in the same clause. Modify the clause to make sure that a column is updated only once. If this statement updates or inserts columns into a view, column aliasing can conceal the duplication in your code. (264) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[SQL: INSERT INTO [AlzheimersDiseaseTransformada] ([RowId], [YearStart], [YearEnd], [LocationAbbr], [LocationDesc], [Datasource], [Class], [Topic], [Question], [Data_Value_Unit], [DataValueTypeID], [Data_Value_Type], [Data_Value], [Data_Value_Alt], [Data_V ... 6642 characters truncated ... ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('BRFSS~2022~2022~42~Q03~TMC01~AGE~RACE', 2022, 2022, 'PA', 'Pennsylvania', 'BRFSS', 'Mental Health', 'Frequent mental distress', 'Percentage of older adults who are experiencing frequent mental distress', '%', 'PRCTG', 'Percentage', 0.0, 0.0, '~', 'No Data Available', 0.0, 0.0, 'Age Group', '50-64 years', 'Race/Ethnicity', 'Native Am/Alaskan Native', 'POINT (-77.86070029 40.79373015)', 'C05', 'TMC01', 3.0, 42, 'AGE', '5064', 'RACE', 'NAA', 'POINT (-77.86070029 40.79373015)', 'BRFSS~2022~2022~46~Q03~TMC01~AGE~RACE', 2022, 2022, 'SD', 'South Dakota', 'BRFSS', 'Mental Health', 'Frequent mental distress', 'Percentage of older adults who are experiencing frequent mental distress', '%', 'PRCTG', 'Percentage', 0.0, 0.0, '~', 'No Data Available', 0.0, 0.0 ... 1980 parameters truncated ... 'No Data Available', 'No Data Available', 35.400001525878906, 42.900001525878906, 'Age Group', '50-64 years', 'Gender', 'Male', 'POINT (-111.5871306 39.36070017)', 'C02', 'TNC04', 13.0, 49, 'AGE', '5064', 'GENDER', 'MALE', 'POINT (-111.5871306 39.36070017)', 'BRFSS~2022~2022~04~Q13~TNC04~AGE~RACE', 2022, 2022, 'AZ', 'Arizona', 'BRFSS', 'Nutrition/Physical Activity/Obesity', 'Obesity', 'Percentage of older adults who are currently obese, with a body mass index (BMI) of 30 or more', '%', 'PRCTG', 'Percentage', 42.400001525878906, 42.400001525878906, 'No Data Available', 'No Data Available', 34.20000076293945, 51.099998474121094, 'Age Group', '65 years or older', 'Race/Ethnicity', 'Hispanic', 'POINT (-111.7638113 34.86597028)', 'C02', 'TNC04', 13.0, 4, 'AGE', '65PLUS', 'RACE', 'HIS', 'POINT (-111.7638113 34.86597028)')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-06-23 09:52:24,381:INFO:Leyendo el archivo de configuracion
+2024-06-23 09:52:24,381:INFO:Usando autenticacion de Windows
+2024-06-23 09:52:24,381:INFO:Estableciendo conexion a la base de datos
+2024-06-23 09:52:24,418:INFO:Conexion establecida
+2024-06-23 09:52:24,418:INFO:Leyendo archivo sql
+2024-06-23 09:52:24,418:INFO:Archivo sql leido
+2024-06-23 09:52:24,418:INFO:Extrayendo datos de la base de datos
+2024-06-23 09:52:40,175:INFO:Datos extraidos
+2024-06-23 09:52:40,182:INFO:Iniciando limpieza y transformación de datos
+2024-06-23 09:52:40,583:INFO:Limpieza y transformación de datos completadas
+2024-06-23 09:52:40,583:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-23 09:52:46,596:ERROR:Error al cargar datos a la tabla: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The column name 'Geolocation' is specified more than once in the SET clause or column list of an INSERT. A column cannot be assigned more than one value in the same clause. Modify the clause to make sure that a column is updated only once. If this statement updates or inserts columns into a view, column aliasing can conceal the duplication in your code. (264) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[SQL: INSERT INTO [AlzheimersDiseaseTransformada] ([RowId], [YearStart], [YearEnd], [LocationAbbr], [LocationDesc], [Datasource], [Class], [Topic], [Question], [Data_Value_Unit], [DataValueTypeID], [Data_Value_Type], [Data_Value], [Data_Value_Alt], [Data_V ... 6642 characters truncated ... ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('BRFSS~2022~2022~42~Q03~TMC01~AGE~RACE', 2022, 2022, 'PA', 'Pennsylvania', 'BRFSS', 'Mental Health', 'Frequent mental distress', 'Percentage of older adults who are experiencing frequent mental distress', '%', 'PRCTG', 'Percentage', 0.0, 0.0, '~', 'No Data Available', 0.0, 0.0, 'Age Group', '50-64 years', 'Race/Ethnicity', 'Native Am/Alaskan Native', 'POINT (-77.86070029 40.79373015)', 'C05', 'TMC01', 3.0, 42, 'AGE', '5064', 'RACE', 'NAA', 'POINT (-77.86070029 40.79373015)', 'BRFSS~2022~2022~46~Q03~TMC01~AGE~RACE', 2022, 2022, 'SD', 'South Dakota', 'BRFSS', 'Mental Health', 'Frequent mental distress', 'Percentage of older adults who are experiencing frequent mental distress', '%', 'PRCTG', 'Percentage', 0.0, 0.0, '~', 'No Data Available', 0.0, 0.0 ... 1980 parameters truncated ... 'Unknown', 'No Data Available', 35.400001525878906, 42.900001525878906, 'Age Group', '50-64 years', 'Gender', 'Male', 'POINT (-111.5871306 39.36070017)', 'C02', 'TNC04', 13.0, 49, 'AGE', '5064', 'GENDER', 'MALE', 'POINT (-111.5871306 39.36070017)', 'BRFSS~2022~2022~04~Q13~TNC04~AGE~RACE', 2022, 2022, 'AZ', 'Arizona', 'BRFSS', 'Nutrition/Physical Activity/Obesity', 'Obesity', 'Percentage of older adults who are currently obese, with a body mass index (BMI) of 30 or more', '%', 'PRCTG', 'Percentage', 42.400001525878906, 42.400001525878906, 'Unknown', 'No Data Available', 34.20000076293945, 51.099998474121094, 'Age Group', '65 years or older', 'Race/Ethnicity', 'Hispanic', 'POINT (-111.7638113 34.86597028)', 'C02', 'TNC04', 13.0, 4, 'AGE', '65PLUS', 'RACE', 'HIS', 'POINT (-111.7638113 34.86597028)')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-06-23 10:02:33,691:INFO:Leyendo el archivo de configuracion
+2024-06-23 10:02:33,691:INFO:Usando autenticacion de Windows
+2024-06-23 10:02:33,691:INFO:Estableciendo conexion a la base de datos
+2024-06-23 10:02:33,707:INFO:Conexion establecida
+2024-06-23 10:02:33,707:INFO:Leyendo archivo sql
+2024-06-23 10:02:33,707:INFO:Archivo sql leido
+2024-06-23 10:02:33,707:INFO:Extrayendo datos de la base de datos
+2024-06-23 10:02:49,456:INFO:Datos extraidos
+2024-06-23 10:02:49,456:INFO:Iniciando limpieza y transformación de datos
+2024-06-23 10:02:50,128:INFO:Limpieza y transformación de datos completadas
+2024-06-23 10:02:50,128:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-23 10:03:24,278:INFO:Datos cargados a la tabla
+2024-06-24 15:58:28,582:INFO:Leyendo el archivo de configuracion
+2024-06-24 15:58:28,590:INFO:Usando autenticacion de Windows
+2024-06-24 15:58:28,590:INFO:Estableciendo conexion a la base de datos
+2024-06-24 15:58:28,636:INFO:Conexion establecida
+2024-06-24 15:58:28,636:INFO:Leyendo archivo sql
+2024-06-24 15:58:28,636:INFO:Archivo sql leido
+2024-06-24 15:58:28,636:INFO:Extrayendo datos de la base de datos
+2024-06-24 15:58:52,417:INFO:Datos extraidos
+2024-06-24 15:58:52,417:INFO:Iniciando limpieza y transformación de datos
+2024-06-24 15:58:52,701:ERROR:Error durante la limpieza y transformación de datos: 'QuestionId'
+2024-06-24 15:59:50,432:INFO:Leyendo el archivo de configuracion
+2024-06-24 15:59:50,432:INFO:Usando autenticacion de Windows
+2024-06-24 15:59:50,432:INFO:Estableciendo conexion a la base de datos
+2024-06-24 15:59:50,463:INFO:Conexion establecida
+2024-06-24 15:59:50,463:INFO:Leyendo archivo sql
+2024-06-24 15:59:50,463:INFO:Archivo sql leido
+2024-06-24 15:59:50,463:INFO:Extrayendo datos de la base de datos
+2024-06-24 16:00:12,808:INFO:Datos extraidos
+2024-06-24 16:00:12,808:INFO:Iniciando limpieza y transformación de datos
+2024-06-24 16:00:13,060:ERROR:Error durante la limpieza y transformación de datos: 'QuestionId'
+2024-06-24 16:01:54,859:INFO:Leyendo el archivo de configuracion
+2024-06-24 16:01:54,859:INFO:Usando autenticacion de Windows
+2024-06-24 16:01:54,891:INFO:Estableciendo conexion a la base de datos
+2024-06-24 16:01:54,906:INFO:Conexion establecida
+2024-06-24 16:01:54,906:INFO:Leyendo archivo sql
+2024-06-24 16:01:54,906:INFO:Archivo sql leido
+2024-06-24 16:01:54,906:INFO:Extrayendo datos de la base de datos
+2024-06-24 16:02:16,359:INFO:Datos extraidos
+2024-06-24 16:02:16,359:INFO:Iniciando limpieza y transformación de datos
+2024-06-24 16:02:17,003:INFO:Limpieza y transformación de datos completadas
+2024-06-24 16:02:17,003:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-24 16:02:47,915:INFO:Datos cargados a la tabla
+2024-06-29 16:36:46,109:INFO:Leyendo el archivo de configuracion
+2024-06-29 16:36:46,109:INFO:Usando autenticacion de Windows
+2024-06-29 16:36:46,109:INFO:Estableciendo conexion a la base de datos
+2024-06-29 16:36:46,158:INFO:Conexion establecida
+2024-06-29 16:36:46,158:INFO:Leyendo archivo sql
+2024-06-29 16:36:46,158:INFO:Archivo sql leido
+2024-06-29 16:36:46,158:INFO:Extrayendo datos de la base de datos
+2024-06-29 16:37:01,730:INFO:Datos extraidos
+2024-06-29 16:37:01,730:INFO:Iniciando limpieza y transformación de datos
+2024-06-29 16:37:02,124:ERROR:Error durante la limpieza y transformación de datos: 'Age Group'
+2024-06-29 16:37:40,233:INFO:Leyendo el archivo de configuracion
+2024-06-29 16:37:40,233:INFO:Usando autenticacion de Windows
+2024-06-29 16:37:40,233:INFO:Estableciendo conexion a la base de datos
+2024-06-29 16:37:40,276:INFO:Conexion establecida
+2024-06-29 16:37:40,276:INFO:Leyendo archivo sql
+2024-06-29 16:37:40,276:INFO:Archivo sql leido
+2024-06-29 16:37:40,276:INFO:Extrayendo datos de la base de datos
+2024-06-29 16:37:57,449:INFO:Datos extraidos
+2024-06-29 16:37:57,449:INFO:Iniciando limpieza y transformación de datos
+2024-06-29 16:37:58,858:ERROR:Error durante la limpieza y transformación de datos: data type 'nvarchar(50)' not understood
+2024-06-29 16:39:42,858:INFO:Leyendo el archivo de configuracion
+2024-06-29 16:39:42,858:INFO:Usando autenticacion de Windows
+2024-06-29 16:39:42,858:INFO:Estableciendo conexion a la base de datos
+2024-06-29 16:39:42,888:INFO:Conexion establecida
+2024-06-29 16:39:42,889:INFO:Leyendo archivo sql
+2024-06-29 16:39:42,889:INFO:Archivo sql leido
+2024-06-29 16:39:42,889:INFO:Extrayendo datos de la base de datos
+2024-06-29 16:39:59,687:INFO:Datos extraidos
+2024-06-29 16:39:59,698:INFO:Iniciando limpieza y transformación de datos
+2024-06-29 16:40:01,254:ERROR:Error durante la limpieza y transformación de datos: "['Age Group'] not in index"
+2024-06-29 16:40:21,156:INFO:Leyendo el archivo de configuracion
+2024-06-29 16:40:21,156:INFO:Usando autenticacion de Windows
+2024-06-29 16:40:21,156:INFO:Estableciendo conexion a la base de datos
+2024-06-29 16:40:21,269:INFO:Conexion establecida
+2024-06-29 16:40:21,269:INFO:Leyendo archivo sql
+2024-06-29 16:40:21,269:INFO:Archivo sql leido
+2024-06-29 16:40:21,269:INFO:Extrayendo datos de la base de datos
+2024-06-29 16:40:36,403:INFO:Datos extraidos
+2024-06-29 16:40:36,403:INFO:Iniciando limpieza y transformación de datos
+2024-06-29 16:40:37,900:INFO:Limpieza y transformación de datos completadas
+2024-06-29 16:40:37,900:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-29 16:41:11,822:INFO:Datos cargados a la tabla
+2024-06-29 16:50:46,085:INFO:Leyendo el archivo de configuracion
+2024-06-29 16:50:46,085:INFO:Usando autenticacion de Windows
+2024-06-29 16:50:46,085:INFO:Estableciendo conexion a la base de datos
+2024-06-29 16:50:46,115:INFO:Conexion establecida
+2024-06-29 16:50:46,115:INFO:Leyendo archivo sql
+2024-06-29 16:50:46,115:INFO:Archivo sql leido
+2024-06-29 16:50:46,115:INFO:Extrayendo datos de la base de datos
+2024-06-29 16:50:54,176:INFO:Datos extraidos
+2024-06-29 16:50:54,176:INFO:Iniciando limpieza y transformación de datos
+2024-06-29 16:50:56,564:INFO:Limpieza y transformación de datos completadas
+2024-06-29 16:50:56,564:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-29 16:51:32,227:INFO:Datos cargados a la tabla
+2024-06-29 16:52:18,773:INFO:Leyendo el archivo de configuracion
+2024-06-29 16:52:18,779:INFO:Usando autenticacion de Windows
+2024-06-29 16:52:18,779:INFO:Estableciendo conexion a la base de datos
+2024-06-29 16:52:18,808:INFO:Conexion establecida
+2024-06-29 16:52:18,808:INFO:Leyendo archivo sql
+2024-06-29 16:52:18,808:INFO:Archivo sql leido
+2024-06-29 16:52:18,808:INFO:Extrayendo datos de la base de datos
+2024-06-29 16:52:34,815:INFO:Datos extraidos
+2024-06-29 16:52:34,815:INFO:Iniciando limpieza y transformación de datos
+2024-06-29 16:52:36,818:INFO:Limpieza y transformación de datos completadas
+2024-06-29 16:52:36,818:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-29 16:53:11,779:INFO:Datos cargados a la tabla
+2024-06-29 17:44:29,969:INFO:Leyendo el archivo de configuracion
+2024-06-29 17:44:29,985:INFO:Usando autenticacion de Windows
+2024-06-29 17:44:29,985:INFO:Estableciendo conexion a la base de datos
+2024-06-29 17:44:30,001:INFO:Conexion establecida
+2024-06-29 17:44:30,001:INFO:Leyendo archivo sql
+2024-06-29 17:44:30,017:INFO:Archivo sql leido
+2024-06-29 17:44:30,017:INFO:Extrayendo datos de la base de datos
+2024-06-29 17:44:48,608:INFO:Datos extraidos
+2024-06-29 17:44:48,608:INFO:Iniciando limpieza y transformación de datos
+2024-06-29 17:44:56,956:INFO:Limpieza y transformación de datos completadas
+2024-06-29 17:44:56,956:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-29 17:45:26,927:INFO:Datos cargados a la tabla
+2024-06-29 17:56:20,738:INFO:Leyendo el archivo de configuracion
+2024-06-29 17:56:20,754:INFO:Usando autenticacion de Windows
+2024-06-29 17:56:20,754:INFO:Estableciendo conexion a la base de datos
+2024-06-29 17:56:20,770:INFO:Conexion establecida
+2024-06-29 17:56:20,770:INFO:Leyendo archivo sql
+2024-06-29 17:56:20,770:INFO:Archivo sql leido
+2024-06-29 17:56:20,770:INFO:Extrayendo datos de la base de datos
+2024-06-29 17:56:40,468:INFO:Datos extraidos
+2024-06-29 17:56:40,468:INFO:Iniciando limpieza y transformación de datos
+2024-06-29 17:56:49,543:INFO:Limpieza y transformación de datos completadas
+2024-06-29 17:56:49,543:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-29 17:57:25,779:INFO:Datos cargados a la tabla
+2024-06-30 04:31:03,732:INFO:Leyendo el archivo de configuracion
+2024-06-30 04:31:03,736:INFO:Usando autenticacion de Windows
+2024-06-30 04:31:03,736:INFO:Estableciendo conexion a la base de datos
+2024-06-30 04:31:03,771:INFO:Conexion establecida
+2024-06-30 04:31:03,771:INFO:Leyendo archivo sql
+2024-06-30 04:31:03,771:INFO:Archivo sql leido
+2024-06-30 04:31:03,771:INFO:Extrayendo datos de la base de datos
+2024-06-30 04:31:28,019:INFO:Datos extraidos
+2024-06-30 04:31:28,019:INFO:Iniciando limpieza y transformación de datos
+2024-06-30 04:31:36,021:INFO:Limpieza y transformación de datos completadas
+2024-06-30 04:31:36,021:ERROR:Error al eliminar datos en tabla transformada: 'Engine' object has no attribute 'execute'
+2024-06-30 04:32:33,998:INFO:Leyendo el archivo de configuracion
+2024-06-30 04:32:33,998:INFO:Usando autenticacion de Windows
+2024-06-30 04:32:33,998:INFO:Estableciendo conexion a la base de datos
+2024-06-30 04:32:34,069:INFO:Conexion establecida
+2024-06-30 04:32:34,069:INFO:Leyendo archivo sql
+2024-06-30 04:32:34,069:INFO:Archivo sql leido
+2024-06-30 04:32:34,069:INFO:Extrayendo datos de la base de datos
+2024-06-30 04:32:49,386:INFO:Datos extraidos
+2024-06-30 04:32:49,386:INFO:Iniciando limpieza y transformación de datos
+2024-06-30 04:32:57,860:INFO:Limpieza y transformación de datos completadas
+2024-06-30 04:32:57,860:ERROR:Error al eliminar datos en tabla transformada: 'Engine' object has no attribute 'execute'
+2024-06-30 04:42:35,827:INFO:Leyendo el archivo de configuracion
+2024-06-30 04:42:35,827:INFO:Usando autenticacion de Windows
+2024-06-30 04:42:35,827:INFO:Estableciendo conexion a la base de datos
+2024-06-30 04:42:35,851:INFO:Conexion establecida
+2024-06-30 04:42:35,851:INFO:Leyendo archivo sql
+2024-06-30 04:42:35,851:INFO:Archivo sql leido
+2024-06-30 04:42:35,851:INFO:Extrayendo datos de la base de datos
+2024-06-30 04:42:51,897:INFO:Datos extraidos
+2024-06-30 04:42:51,897:INFO:Iniciando limpieza y transformación de datos
+2024-06-30 04:42:59,994:INFO:Limpieza y transformación de datos completadas
+2024-06-30 04:42:59,994:INFO:Leyendo archivo sql para eliminar datos en tabla transformada
+2024-06-30 04:42:59,994:ERROR:Error al eliminar datos en tabla transformada: 'Engine' object is not callable
+2024-06-30 04:43:51,453:INFO:Leyendo el archivo de configuracion
+2024-06-30 04:43:51,453:INFO:Usando autenticacion de Windows
+2024-06-30 04:43:51,453:INFO:Estableciendo conexion a la base de datos
+2024-06-30 04:43:51,490:INFO:Conexion establecida
+2024-06-30 04:43:51,490:INFO:Leyendo archivo sql
+2024-06-30 04:43:51,490:INFO:Archivo sql leido
+2024-06-30 04:43:51,490:INFO:Extrayendo datos de la base de datos
+2024-06-30 04:44:05,944:INFO:Datos extraidos
+2024-06-30 04:44:05,944:INFO:Iniciando limpieza y transformación de datos
+2024-06-30 04:44:13,249:INFO:Limpieza y transformación de datos completadas
+2024-06-30 04:44:13,249:INFO:Leyendo archivo sql para eliminar datos en tabla transformada
+2024-06-30 04:44:13,249:ERROR:Error al eliminar datos en tabla transformada: 'function' object has no attribute 'text'
+2024-06-30 04:47:44,388:INFO:Leyendo el archivo de configuracion
+2024-06-30 04:47:44,388:INFO:Usando autenticacion de Windows
+2024-06-30 04:47:44,388:INFO:Estableciendo conexion a la base de datos
+2024-06-30 04:47:44,423:INFO:Conexion establecida
+2024-06-30 04:47:44,423:INFO:Leyendo archivo sql
+2024-06-30 04:47:44,423:INFO:Archivo sql leido
+2024-06-30 04:47:44,423:INFO:Extrayendo datos de la base de datos
+2024-06-30 04:48:02,244:INFO:Datos extraidos
+2024-06-30 04:48:02,244:INFO:Iniciando limpieza y transformación de datos
+2024-06-30 04:48:10,104:INFO:Limpieza y transformación de datos completadas
+2024-06-30 04:48:10,104:INFO:Leyendo archivo sql para eliminar datos en tabla transformada
+2024-06-30 04:48:10,104:ERROR:Error al eliminar datos en tabla transformada: Not an executable object: 'QuerySql/DeleteData.sql'
+2024-06-30 04:49:11,591:INFO:Leyendo el archivo de configuracion
+2024-06-30 04:49:11,591:INFO:Usando autenticacion de Windows
+2024-06-30 04:49:11,591:INFO:Estableciendo conexion a la base de datos
+2024-06-30 04:49:11,621:INFO:Conexion establecida
+2024-06-30 04:49:11,621:INFO:Leyendo archivo sql
+2024-06-30 04:49:11,621:INFO:Archivo sql leido
+2024-06-30 04:49:11,621:INFO:Extrayendo datos de la base de datos
+2024-06-30 04:49:34,164:INFO:Datos extraidos
+2024-06-30 04:49:34,164:INFO:Iniciando limpieza y transformación de datos
+2024-06-30 04:49:42,474:INFO:Limpieza y transformación de datos completadas
+2024-06-30 04:49:42,474:INFO:Leyendo archivo sql para eliminar datos en tabla transformada
+2024-06-30 04:49:42,474:ERROR:Error al eliminar datos en tabla transformada: Not an executable object: 'DELETE  FROM AlzheimersDiseaseTransformada'
+2024-06-30 05:02:27,875:INFO:Leyendo el archivo de configuracion
+2024-06-30 05:02:27,878:INFO:Usando autenticacion de Windows
+2024-06-30 05:02:27,878:INFO:Estableciendo conexion a la base de datos
+2024-06-30 05:02:27,912:INFO:Conexion establecida
+2024-06-30 05:02:27,912:INFO:Leyendo archivo sql
+2024-06-30 05:02:27,920:INFO:Archivo sql leido
+2024-06-30 05:02:27,921:INFO:Extrayendo datos de la base de datos
+2024-06-30 05:02:44,794:INFO:Datos extraidos
+2024-06-30 05:02:44,794:INFO:Iniciando limpieza y transformación de datos
+2024-06-30 05:02:53,434:INFO:Limpieza y transformación de datos completadas
+2024-06-30 05:02:53,450:INFO:Leyendo archivo sql para eliminar datos en tabla transformada
+2024-06-30 05:02:53,468:INFO:Datos eliminados en tabla transformada
+2024-06-30 05:02:53,468:INFO:Cargando datos limpios y transformados a la base de datos
+2024-06-30 05:03:27,824:INFO:Datos cargados a la tabla
+2024-07-05 18:34:53,407:INFO:Leyendo el archivo de configuracion
+2024-07-05 18:34:53,423:INFO:Usando autenticacion de Windows
+2024-07-05 18:34:53,423:INFO:Estableciendo conexion a la base de datos
+2024-07-05 18:34:53,454:INFO:Conexion establecida
+2024-07-05 18:34:53,454:INFO:Leyendo archivo sql
+2024-07-05 18:34:53,471:INFO:Archivo sql leido
+2024-07-05 18:34:53,471:INFO:Extrayendo datos de la base de datos
+2024-07-05 18:35:07,780:INFO:Datos extraidos
+2024-07-05 18:35:07,780:INFO:Iniciando limpieza y transformación de datos
+2024-07-05 18:35:16,144:INFO:Limpieza y transformación de datos completadas
+2024-07-05 18:35:16,155:INFO:Leyendo archivo sql para eliminar datos en tabla transformada
+2024-07-05 18:35:17,552:INFO:Datos eliminados en tabla transformada
+2024-07-05 18:35:17,552:INFO:Cargando datos limpios y transformados a la base de datos
+2024-07-05 18:35:50,480:INFO:Datos cargados a la tabla
+2024-07-05 18:37:05,525:INFO:Leyendo el archivo de configuracion
+2024-07-05 18:37:05,525:INFO:Usando autenticacion de Windows
+2024-07-05 18:37:05,525:INFO:Estableciendo conexion a la base de datos
+2024-07-05 18:37:05,554:INFO:Conexion establecida
+2024-07-05 18:37:05,554:INFO:Leyendo archivo sql
+2024-07-05 18:37:05,556:INFO:Archivo sql leido
+2024-07-05 18:37:05,556:INFO:Extrayendo datos de la base de datos
+2024-07-05 18:37:24,689:INFO:Datos extraidos
+2024-07-05 18:37:24,689:INFO:Iniciando limpieza y transformación de datos
+2024-07-05 18:37:44,290:INFO:Limpieza y transformación de datos completadas
+2024-07-05 18:37:44,290:INFO:Leyendo archivo sql para eliminar datos en tabla transformada
+2024-07-05 18:37:45,939:INFO:Datos eliminados en tabla transformada
+2024-07-05 18:37:45,954:INFO:Cargando datos limpios y transformados a la base de datos
+2024-07-05 18:38:34,123:INFO:Datos cargados a la tabla
+2024-07-05 18:50:59,882:INFO:Leyendo el archivo de configuracion
+2024-07-05 18:50:59,882:INFO:Usando autenticacion de Windows
+2024-07-05 18:50:59,882:INFO:Estableciendo conexion a la base de datos
+2024-07-05 18:50:59,914:INFO:Conexion establecida
+2024-07-05 18:50:59,914:INFO:Leyendo archivo sql
+2024-07-05 18:50:59,914:INFO:Archivo sql leido
+2024-07-05 18:50:59,914:INFO:Extrayendo datos de la base de datos
+2024-07-05 18:50:59,991:INFO:Datos extraidos
+2024-07-05 18:50:59,991:INFO:Iniciando limpieza y transformación de datos
+2024-07-05 18:51:00,008:ERROR:Error durante la limpieza y transformación de datos: Columns must be same length as key
+2024-07-05 18:51:33,878:INFO:Leyendo el archivo de configuracion
+2024-07-05 18:51:33,878:INFO:Usando autenticacion de Windows
+2024-07-05 18:51:33,878:INFO:Estableciendo conexion a la base de datos
+2024-07-05 18:51:33,910:INFO:Conexion establecida
+2024-07-05 18:51:33,910:INFO:Leyendo archivo sql
+2024-07-05 18:51:33,910:INFO:Archivo sql leido
+2024-07-05 18:51:33,910:INFO:Extrayendo datos de la base de datos
+2024-07-05 18:51:33,988:INFO:Datos extraidos
+2024-07-05 18:51:33,988:INFO:Iniciando limpieza y transformación de datos
+2024-07-05 18:51:33,988:ERROR:Error durante la limpieza y transformación de datos: Columns must be same length as key
+2024-07-05 18:51:55,933:INFO:Leyendo el archivo de configuracion
+2024-07-05 18:51:55,933:INFO:Usando autenticacion de Windows
+2024-07-05 18:51:55,933:INFO:Estableciendo conexion a la base de datos
+2024-07-05 18:51:55,949:INFO:Conexion establecida
+2024-07-05 18:51:55,949:INFO:Leyendo archivo sql
+2024-07-05 18:51:55,949:INFO:Archivo sql leido
+2024-07-05 18:51:55,949:INFO:Extrayendo datos de la base de datos
+2024-07-05 18:51:56,075:INFO:Datos extraidos
+2024-07-05 18:51:56,075:INFO:Iniciando limpieza y transformación de datos
+2024-07-05 18:51:56,075:ERROR:Error durante la limpieza y transformación de datos: Columns must be same length as key
+2024-07-05 19:00:11,121:INFO:Leyendo el archivo de configuracion
+2024-07-05 19:00:11,121:INFO:Usando autenticacion de Windows
+2024-07-05 19:00:11,121:INFO:Estableciendo conexion a la base de datos
+2024-07-05 19:00:11,159:INFO:Conexion establecida
+2024-07-05 19:00:11,159:INFO:Leyendo archivo sql
+2024-07-05 19:00:11,159:INFO:Archivo sql leido
+2024-07-05 19:00:11,159:INFO:Extrayendo datos de la base de datos
+2024-07-05 19:00:24,526:INFO:Datos extraidos
+2024-07-05 19:00:24,542:INFO:Iniciando limpieza y transformación de datos
+2024-07-05 19:00:32,356:INFO:Limpieza y transformación de datos completadas
+2024-07-05 19:00:32,356:INFO:Leyendo archivo sql para eliminar datos en tabla transformada
+2024-07-05 19:00:32,356:INFO:Datos eliminados en tabla transformada
+2024-07-05 19:00:32,356:INFO:Cargando datos limpios y transformados a la base de datos
+2024-07-05 19:01:32,763:INFO:Datos cargados a la tabla
+2024-07-07 09:40:29,389:INFO:Leyendo el archivo de configuracion
+2024-07-07 09:40:29,413:INFO:Usando autenticacion de Windows
+2024-07-07 09:40:29,413:INFO:Estableciendo conexion a la base de datos
+2024-07-07 09:40:29,446:INFO:Conexion establecida
+2024-07-07 09:40:29,446:INFO:Leyendo archivo sql
+2024-07-07 09:40:29,462:INFO:Archivo sql leido
+2024-07-07 09:40:29,462:INFO:Extrayendo datos de la base de datos
+2024-07-07 09:40:48,065:INFO:Datos extraidos
+2024-07-07 09:40:48,065:INFO:Iniciando limpieza y transformación de datos
+2024-07-07 09:41:04,007:INFO:Limpieza y transformación de datos completadas
+2024-07-07 09:41:04,030:INFO:Leyendo archivo sql para eliminar datos en tabla transformada
+2024-07-07 09:41:05,733:INFO:Datos eliminados en tabla transformada
+2024-07-07 09:41:05,733:INFO:Cargando datos limpios y transformados a la base de datos
+2024-07-07 09:41:48,920:INFO:Datos cargados a la tabla

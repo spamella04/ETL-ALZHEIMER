@@ -1,0 +1,280 @@
+2024-06-25 11:20:16,898:INFO:Leyendo el archivo de configuracion
+2024-06-25 11:20:16,910:INFO:Usando autenticacion de Windows
+2024-06-25 11:20:16,910:INFO:Estableciendo conexion a la base de datos
+2024-06-25 11:20:16,935:INFO:Conexion establecida
+2024-06-25 11:20:16,935:INFO:Leyendo archivo SQL: QuerySql/DimQuestion.sql
+2024-06-25 11:20:16,935:INFO:Ejecutando consulta SQL del archivo: QuerySql/DimQuestion.sql
+2024-06-25 11:20:17,168:ERROR:Error al procesar el archivo SQL: QuerySql/DimQuestion.sql, Error: (pyodbc.ProgrammingError) ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'AlzheimersDiseaseTransformada'. (208) (SQLExecDirectW)")
+[SQL: SELECT DISTINCT
+    QuestionId,
+    Question
+FROM AlzheimersDiseaseTransformada
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-06-25 11:31:01,239:INFO:Leyendo configuración para la base de datos fuente
+2024-06-25 11:31:01,239:ERROR:Error al crear la conexión a la base de datos fuente: 'database_staging'
+2024-06-25 11:32:13,641:INFO:Leyendo configuración para la base de datos fuente
+2024-06-25 11:32:13,641:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-25 11:32:13,657:INFO:Conexión a la base de datos fuente establecida
+2024-06-25 11:32:13,657:INFO:Leyendo configuración para la base de datos destino
+2024-06-25 11:32:13,657:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-25 11:32:13,657:INFO:Conexión a la base de datos destino establecida
+2024-06-25 11:32:13,657:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-25 11:32:13,657:INFO:Archivos SQL leídos correctamente
+2024-06-25 11:32:13,657:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-25 11:32:15,071:ERROR:Error al cargar datos a DataFrames: Not an executable object: <built-in method read of _io.TextIOWrapper object at 0x0000022D1C6FC3C0>
+2024-06-25 11:36:35,747:INFO:Leyendo configuración para la base de datos fuente
+2024-06-25 11:36:35,747:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-25 11:36:35,769:INFO:Conexión a la base de datos fuente establecida
+2024-06-25 11:36:35,769:INFO:Leyendo configuración para la base de datos destino
+2024-06-25 11:36:35,769:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-25 11:36:35,769:INFO:Conexión a la base de datos destino establecida
+2024-06-25 11:36:35,769:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-25 11:36:35,769:INFO:Archivos SQL leídos correctamente
+2024-06-25 11:36:35,769:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-25 11:36:41,470:INFO:Datos cargados a DataFrames correctamente
+2024-06-25 11:36:41,470:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-25 11:36:54,616:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-06-25 11:40:31,484:INFO:Leyendo configuración para la base de datos fuente
+2024-06-25 11:40:31,484:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-25 11:40:31,500:INFO:Conexión a la base de datos fuente establecida
+2024-06-25 11:40:31,500:INFO:Leyendo configuración para la base de datos destino
+2024-06-25 11:40:31,500:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-25 11:40:31,500:INFO:Conexión a la base de datos destino establecida
+2024-06-25 11:40:31,500:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-25 11:40:31,500:INFO:Archivos SQL leídos correctamente
+2024-06-25 11:40:31,500:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-25 11:40:36,411:INFO:Datos cargados a DataFrames correctamente
+2024-06-25 11:40:36,411:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-25 11:40:36,442:ERROR:Error al insertar datos en las tablas dimensionales: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__DimQuest__0DC06FACB35825F9'. Cannot insert duplicate key in object 'dbo.DimQuestion'. The duplicate key value is (35). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+[SQL: INSERT INTO [DimQuestion] ([QuestionId], [Question]) VALUES (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?), (?, ?)]
+[parameters: (35.0, 'Mean number of days with activity limitations in the past month', 19.0, 'Percentage of older adults without diabetes who reported a blood sugar or diabetes test within 3 years', 8.0, 'Physically unhealthy days (mean number of days in past month)', 46.0, 'Percentage of older adults who report having a disability (includes limitations related to sensory or mobility impairments or a physical, mental, or emotional condition)', 2.0, 'Percentage of older adults who are eating 3 or more vegetables daily', 16.0, 'Percentage of older adults who have not had any leisure time physical activity in the past month', 30.0, 'Percentage of older adults who reported subjective cognitive decline or memory loss that is happening more often or is getting worse in the preceding 12 months', 31.0, 'Percentage of older adults who reported subjective cognitive decline or memory loss that interferes with their ability to engage in social activities or household chores', 40.0, 'Percentage of older adults who provided care for someone with dementia or other cognitive impairment within the past month', 20.0, 'Percentage of older adult women with an intact cervix who had a Pap test within the past 3 years', 1.0, 'Percentage of older adults who are eating 2 or more fruits daily', 34.0, 'Percentage of older adults getting sufficient sleep (>6 hours)', 27.0, 'Percentage of older adults with a lifetime diagnosis of depression', 13.0, 'Percentage of older adults who are currently obese, with a body mass index (BMI) of 30 or more', 41.0, 'Percentage of older adults who reported that as a result of subjective cognitive decline or memory loss that they need assistance with day-to-day activities', 38.0, 'Percentage of older adults who provided care to a friend or family member for six months or more', 37.0, 'Percentage of older adults currently not providing care who expect to provide care for someone with health problems in the next two years', 44.0, 'Severe joint pain due to arthritis among older adults with doctor-diagnosed arthritis', 17.0, 'Percentage of older adults who have smoked at least 100 cigarettes in their entire life and still smoke every day or some days', 10.0, 'Percentage of older adult men who are up to date with select clinical preventive services', 3.0, 'Percentage of older adults who are experiencing frequent mental distress', 14.0, 'Percentage of older adults who had a cholesterol screening within the past 5 years', 39.0, 'Average of 20 or more hours of care per week provided to a friend or family member', 36.0, 'Percentage of older adults who provided care for a friend or family member within the past month', 4.0, 'Percentage of older adults who have been told they have high blood pressure who report currently taking medication for their high blood pressure', 32.0, 'Percentage of older adults who self-reported that their health is "fair" or "poor"', 12.0, 'Percentage of older adult women who have received a mammogram within the past 2 years', 9.0, 'Percentage of at risk adults (have diabetes, asthma, cardiovascular disease or currently smoke) who ever had a pneumococcal vaccine', 7.0, 'Percentage of older adults who report having lost 5 or fewer teeth due to decay or gum disease', 21.0, 'Percentage of older adults who reported binge drinking within the past 30 days', 33.0, 'Percentage of older adults who self-reported that their health is "good", "very good", or "excellent"', 15.0, 'Percentage of older adults who had either a home blood stool test within the past year or a sigmoidoscopy or colonoscopy within the past 10 years', 18.0, 'Percentage of older adults who reported influenza vaccine within the past year', 22.0, 'Percentage of older adults who have ever been told by a health professional that they have high blood pressure', 43.0, 'Percentage of older adults ever told they have arthritis', 45.0, 'Fair or poor health among older adults with doctor-diagnosed arthritis', 11.0, 'Percentage of older adult women who are up to date with select clinical preventive services', 42.0, 'Percentage of older adults with subjective cognitive decline or memory loss who reported talking with a health care professional about it', 5.0, 'Percentage of older adults who have fallen and sustained an injury within last year')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-06-25 11:45:20,278:INFO:Leyendo configuración para la base de datos fuente
+2024-06-25 11:45:20,278:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-25 11:45:20,311:INFO:Conexión a la base de datos fuente establecida
+2024-06-25 11:45:20,311:INFO:Leyendo configuración para la base de datos destino
+2024-06-25 11:45:20,311:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-25 11:45:20,311:INFO:Conexión a la base de datos destino establecida
+2024-06-25 11:45:20,311:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-25 11:45:20,311:INFO:Archivos SQL leídos correctamente
+2024-06-25 11:45:20,311:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-25 11:45:26,507:INFO:Datos cargados a DataFrames correctamente
+2024-06-25 11:45:26,507:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-25 11:45:29,518:ERROR:Error al insertar datos en las tablas dimensionales: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__FactAlzh__FFEE743169EE4818'. Cannot insert duplicate key in object 'dbo.FactAlzheimersDisease'. The duplicate key value is (BRFSS~2022~2022~42~Q03~TMC01~AGE~RACE). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+[SQL: INSERT INTO [FactAlzheimersDisease] ([RowId], [YearStart], [YearEnd], [Data_Value], [Data_Value_Alt], [Low_Confidence_Limit], [High_Confidence_Limit], [DataSource], [LocationId], [TopicId], [QuestionId], [DataValueTypeId], [StratificationId1], [Strat ... 6476 characters truncated ...  ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('BRFSS~2022~2022~42~Q03~TMC01~AGE~RACE', 2022, 2022, 0.0, 0.0, 0.0, 0.0, 'BRFSS', 42, 'TMC01', 3.0, 'PRCTG', '5064', 'NAA', 'BRFSS~2022~2022~46~Q03~TMC01~AGE~RACE', 2022, 2022, 0.0, 0.0, 0.0, 0.0, 'BRFSS', 46, 'TMC01', 3.0, 'PRCTG', '65PLUS', 'ASN', 'BRFSS~2022~2022~16~Q03~TMC01~AGE~RACE', 2022, 2022, 0.0, 0.0, 0.0, 0.0, 'BRFSS', 16, 'TMC01', 3.0, 'PRCTG', '65PLUS', 'BLK', 'BRFSS~2022~2022~24~Q03~TMC01~AGE~RACE', 2022, 2022, 9.0, 9.0, 6.5, 12.300000190734863, 'BRFSS' ... 1986 parameters truncated ... 85.69999694824219, 'BRFSS', 30, 'TOC08', 33.0, 'PRCTG', 'AGE_OVERALL', 'HIS', 'BRFSS~2022~2022~06~Q34~TOC09~AGE~RACE', 2022, 2022, 56.099998474121094, 56.099998474121094, 47.0, 64.80000305175781, 'BRFSS', 6, 'TOC09', 34.0, 'PRCTG', '5064', 'ASN', 'BRFSS~2022~2022~28~Q34~TOC09~AGE~RACE', 2022, 2022, 0.0, 0.0, 0.0, 0.0, 'BRFSS', 28, 'TOC09', 34.0, 'PRCTG', '65PLUS', 'ASN', 'BRFSS~2022~2022~22~Q34~TOC09~AGE~RACE', 2022, 2022, 60.599998474121094, 60.599998474121094, 53.79999923706055, 67.0, 'BRFSS', 22, 'TOC09', 34.0, 'PRCTG', '65PLUS', 'BLK')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-06-25 11:49:30,404:INFO:Leyendo configuración para la base de datos fuente
+2024-06-25 11:49:30,404:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-25 11:49:30,436:INFO:Conexión a la base de datos fuente establecida
+2024-06-25 11:49:30,436:INFO:Leyendo configuración para la base de datos destino
+2024-06-25 11:49:30,436:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-25 11:49:30,436:INFO:Conexión a la base de datos destino establecida
+2024-06-25 11:49:30,436:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-25 11:49:30,436:INFO:Archivos SQL leídos correctamente
+2024-06-25 11:49:30,436:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-25 11:49:35,233:INFO:Datos cargados a DataFrames correctamente
+2024-06-25 11:49:35,233:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-25 11:49:57,052:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-06-28 18:28:12,073:INFO:Leyendo configuración para la base de datos fuente
+2024-06-28 18:28:12,099:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-28 18:28:12,142:INFO:Conexión a la base de datos fuente establecida
+2024-06-28 18:28:12,142:INFO:Leyendo configuración para la base de datos destino
+2024-06-28 18:28:12,142:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-28 18:28:12,148:INFO:Conexión a la base de datos destino establecida
+2024-06-28 18:28:12,148:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-28 18:28:12,428:INFO:Archivos SQL leídos correctamente
+2024-06-28 18:28:12,428:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-28 18:28:24,544:INFO:Datos cargados a DataFrames correctamente
+2024-06-28 18:28:24,544:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-28 18:28:54,310:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-06-29 17:05:34,013:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:05:34,013:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:05:34,045:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:05:34,045:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:05:34,045:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:05:34,045:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:05:34,045:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:05:34,096:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:05:34,100:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:06:04,937:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:06:04,937:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:06:07,333:ERROR:Error al insertar datos en las tablas dimensionales: (pyodbc.ProgrammingError) ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'AgeGroup'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'AgeGroup'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[SQL: INSERT INTO [FactAlzheimersDisease] ([RowId], [YearStart], [YearEnd], [Data_Value], [Low_Confidence_Limit], [High_Confidence_Limit], [LocationId], [TopicId], [QuestionId], [DataValueTypeId], [AgeGroup], [StratificationId2]) VALUES (?, ?, ?, ?, ?, ?,  ... 6491 characters truncated ...  ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 15.899999618530273, 13.199999809265137, 18.899999618530273, 1, 'TNC01', 1.0, 'PRCTG', '>=65', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 16.899999618530273, 14.800000190734863, 19.299999237060547, 1, 'TNC01', 1.0, 'PRCTG', 'Overall', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 17.700000762939453, 14.600000381469727, 21.200000762939453, 1, 'TNC01', 1.0, 'PRCTG', '50-64', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 18.100000381469727, 15.699999809265137, 20.799999237060547, 1, 'TNC01', 1.0, 'PRCTG', '50-64', 'FEMALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015 ... 1988 parameters truncated ... 'Overall', 'MALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 93.30000305175781, 91.4000015258789, 94.69999694824219, 1, 'TSC06', 14.0, 'PRCTG', '50-64', 'FEMALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 95.19999694824219, 94.0999984741211, 96.0999984741211, 1, 'TSC06', 14.0, 'PRCTG', 'Overall', 'FEMALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 95.9000015258789, 94.0999984741211, 97.19999694824219, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'MALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 97.5999984741211, 96.5999984741211, 98.30000305175781, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'FEMALE')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-06-29 17:08:28,499:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:08:28,499:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:08:28,533:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:08:28,545:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:08:28,546:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:08:28,558:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:08:28,558:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:08:28,560:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:08:28,561:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:08:48,514:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:08:48,514:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:08:51,195:ERROR:Error al insertar datos en las tablas dimensionales: (pyodbc.ProgrammingError) ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'AgeGroup'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'AgeGroup'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[SQL: INSERT INTO [FactAlzheimersDisease] ([RowId], [YearStart], [YearEnd], [Data_Value], [Low_Confidence_Limit], [High_Confidence_Limit], [LocationId], [TopicId], [QuestionId], [DataValueTypeId], [AgeGroup], [StratificationId2]) VALUES (?, ?, ?, ?, ?, ?,  ... 6491 characters truncated ...  ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 15.899999618530273, 13.199999809265137, 18.899999618530273, 1, 'TNC01', 1.0, 'PRCTG', '>=65', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 16.899999618530273, 14.800000190734863, 19.299999237060547, 1, 'TNC01', 1.0, 'PRCTG', 'Overall', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 17.700000762939453, 14.600000381469727, 21.200000762939453, 1, 'TNC01', 1.0, 'PRCTG', '50-64', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 18.100000381469727, 15.699999809265137, 20.799999237060547, 1, 'TNC01', 1.0, 'PRCTG', '50-64', 'FEMALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015 ... 1988 parameters truncated ... 'Overall', 'MALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 93.30000305175781, 91.4000015258789, 94.69999694824219, 1, 'TSC06', 14.0, 'PRCTG', '50-64', 'FEMALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 95.19999694824219, 94.0999984741211, 96.0999984741211, 1, 'TSC06', 14.0, 'PRCTG', 'Overall', 'FEMALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 95.9000015258789, 94.0999984741211, 97.19999694824219, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'MALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 97.5999984741211, 96.5999984741211, 98.30000305175781, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'FEMALE')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-06-29 17:11:29,758:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:11:29,774:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:11:29,794:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:11:29,794:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:11:29,794:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:11:29,794:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:11:29,794:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:11:29,794:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:11:29,794:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:11:47,470:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:11:47,470:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:11:49,999:ERROR:Error al insertar datos en las tablas dimensionales: (pyodbc.ProgrammingError) ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'AgeGroup'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'AgeGroup'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[SQL: INSERT INTO [FactAlzheimersDisease] ([RowId], [YearStart], [YearEnd], [Data_Value], [Low_Confidence_Limit], [High_Confidence_Limit], [LocationId], [TopicId], [QuestionId], [DataValueTypeId], [AgeGroup], [StratificationId2]) VALUES (?, ?, ?, ?, ?, ?,  ... 6491 characters truncated ...  ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 15.899999618530273, 13.199999809265137, 18.899999618530273, 1, 'TNC01', 1.0, 'PRCTG', '>=65', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 16.899999618530273, 14.800000190734863, 19.299999237060547, 1, 'TNC01', 1.0, 'PRCTG', 'Overall', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 17.700000762939453, 14.600000381469727, 21.200000762939453, 1, 'TNC01', 1.0, 'PRCTG', '50-64', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 18.100000381469727, 15.699999809265137, 20.799999237060547, 1, 'TNC01', 1.0, 'PRCTG', '50-64', 'FEMALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015 ... 1988 parameters truncated ... 'Overall', 'MALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 93.30000305175781, 91.4000015258789, 94.69999694824219, 1, 'TSC06', 14.0, 'PRCTG', '50-64', 'FEMALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 95.19999694824219, 94.0999984741211, 96.0999984741211, 1, 'TSC06', 14.0, 'PRCTG', 'Overall', 'FEMALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 95.9000015258789, 94.0999984741211, 97.19999694824219, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'MALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 97.5999984741211, 96.5999984741211, 98.30000305175781, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'FEMALE')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-06-29 17:14:59,654:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:14:59,654:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:14:59,706:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:14:59,706:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:14:59,706:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:14:59,706:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:14:59,706:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:14:59,706:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:14:59,706:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:15:32,368:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:15:32,371:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:15:53,126:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-06-29 17:17:25,965:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:17:25,965:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:17:25,992:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:17:25,992:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:17:25,992:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:17:25,992:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:17:25,992:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:17:25,992:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:17:25,992:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:17:49,618:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:17:49,618:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:17:52,758:ERROR:Error al insertar datos en las tablas dimensionales: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__FactAlzh__FFEE743110C22741'. Cannot insert duplicate key in object 'dbo.FactAlzheimersDisease'. The duplicate key value is (BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+[SQL: INSERT INTO [FactAlzheimersDisease] ([RowId], [YearStart], [YearEnd], [Data_Value], [Low_Confidence_Limit], [High_Confidence_Limit], [LocationId], [TopicId], [QuestionId], [DataValueTypeId], [AgeGroup], [StratificationId2]) VALUES (?, ?, ?, ?, ?, ?,  ... 6491 characters truncated ...  ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 15.899999618530273, 13.199999809265137, 18.899999618530273, 1, 'TNC01', 1.0, 'PRCTG', '>=65', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 16.899999618530273, 14.800000190734863, 19.299999237060547, 1, 'TNC01', 1.0, 'PRCTG', 'Overall', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 17.700000762939453, 14.600000381469727, 21.200000762939453, 1, 'TNC01', 1.0, 'PRCTG', '50-64', 'MALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015, 2015, 18.100000381469727, 15.699999809265137, 20.799999237060547, 1, 'TNC01', 1.0, 'PRCTG', '50-64', 'FEMALE', 'BRFSS~2015~2015~01~Q01~TNC01~AGE~GENDER', 2015 ... 1988 parameters truncated ... 'Overall', 'MALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 93.30000305175781, 91.4000015258789, 94.69999694824219, 1, 'TSC06', 14.0, 'PRCTG', '50-64', 'FEMALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 95.19999694824219, 94.0999984741211, 96.0999984741211, 1, 'TSC06', 14.0, 'PRCTG', 'Overall', 'FEMALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 95.9000015258789, 94.0999984741211, 97.19999694824219, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'MALE', 'BRFSS~2015~2015~01~Q14~TSC06~AGE~GENDER', 2015, 2015, 97.5999984741211, 96.5999984741211, 98.30000305175781, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'FEMALE')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-06-29 17:46:30,557:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:46:30,572:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:46:30,599:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:46:30,599:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:46:30,599:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:46:30,599:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:46:30,599:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:46:30,599:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:46:30,599:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:47:04,890:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:47:04,905:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:47:11,167:ERROR:Error al insertar datos en las tablas dimensionales: (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'AlzheimerDW.dbo.FactAlzheimersDisease', column 'RowId'. Truncated value: 'BRFSS~2015~2015~01~Q01~TNC01~>=65~Asian/Pacific Is'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+[SQL: INSERT INTO [FactAlzheimersDisease] ([RowId], [YearStart], [YearEnd], [Data_Value], [Low_Confidence_Limit], [High_Confidence_Limit], [LocationId], [TopicId], [QuestionId], [DataValueTypeId], [AgeGroup], [StratificationId2]) VALUES (?, ?, ?, ?, ?, ?,  ... 6491 characters truncated ...  ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('BRFSS~2015~2015~01~Q01~TNC01~>=65~Asian/Pacific Islander', 2015, 2015, 0.0, 0.0, 0.0, 1, 'TNC01', 1.0, 'PRCTG', '>=65', 'ASN', 'BRFSS~2015~2015~01~Q01~TNC01~>=65~Black, non-Hispanic', 2015, 2015, 21.600000381469727, 16.799999237060547, 27.200000762939453, 1, 'TNC01', 1.0, 'PRCTG', '>=65', 'BLK', 'BRFSS~2015~2015~01~Q01~TNC01~>=65~Female', 2015, 2015, 20.899999618530273, 18.399999618530273, 23.700000762939453, 1, 'TNC01', 1.0, 'PRCTG', '>=65', 'FEMALE', 'BRFSS~2015~2015~01~Q01~TNC01~>=65~Hispanic', 2015, 2015, 0.0, 0.0, 0.0, 1, 'TNC01', 1.0, 'PRCTG', '>=65', 'HIS', 'BRFSS~2015~2015~01~Q01~TNC01~>=65~Male', 2015 ... 1988 parameters truncated ... '>=65', 'BLK', 'BRFSS~2015~2015~01~Q14~TSC06~>=65~Female', 2015, 2015, 97.5999984741211, 96.5999984741211, 98.30000305175781, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'FEMALE', 'BRFSS~2015~2015~01~Q14~TSC06~>=65~Hispanic', 2015, 2015, 0.0, 0.0, 0.0, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'HIS', 'BRFSS~2015~2015~01~Q14~TSC06~>=65~Male', 2015, 2015, 95.9000015258789, 94.0999984741211, 97.19999694824219, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'MALE', 'BRFSS~2015~2015~01~Q14~TSC06~>=65~Native Am/Alaskan Native', 2015, 2015, 0.0, 0.0, 0.0, 1, 'TSC06', 14.0, 'PRCTG', '>=65', 'NAA')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-06-29 17:50:47,382:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:50:47,382:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:50:47,407:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:50:47,407:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:50:47,407:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:50:47,418:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:50:47,418:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:50:47,418:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:50:47,418:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:50:47,532:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:50:47,532:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:50:47,616:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-06-29 17:52:39,630:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:52:39,630:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:52:39,664:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:52:39,676:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:52:39,676:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:52:39,679:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:52:39,679:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:52:39,680:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:52:39,682:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:52:39,772:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:52:39,772:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:52:39,869:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-06-29 17:53:02,947:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:53:02,947:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:53:02,997:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:53:02,997:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:53:02,997:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:53:02,997:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:53:02,997:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:53:02,997:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:53:02,997:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:53:03,118:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:53:03,118:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:53:03,244:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-06-29 17:54:53,498:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:54:53,512:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:54:53,528:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:54:53,528:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:54:53,528:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:54:53,528:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:54:53,528:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:54:53,541:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:54:53,541:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:54:53,640:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:54:53,640:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:54:53,735:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-06-29 17:57:56,622:INFO:Leyendo configuración para la base de datos fuente
+2024-06-29 17:57:56,622:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-29 17:57:56,651:INFO:Conexión a la base de datos fuente establecida
+2024-06-29 17:57:56,651:INFO:Leyendo configuración para la base de datos destino
+2024-06-29 17:57:56,651:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-29 17:57:56,656:INFO:Conexión a la base de datos destino establecida
+2024-06-29 17:57:56,656:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-29 17:57:56,656:INFO:Archivos SQL leídos correctamente
+2024-06-29 17:57:56,656:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-29 17:58:26,938:INFO:Datos cargados a DataFrames correctamente
+2024-06-29 17:58:26,939:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-29 17:58:46,545:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-06-30 05:07:49,353:INFO:Leyendo configuración para la base de datos fuente
+2024-06-30 05:07:49,353:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-06-30 05:07:49,384:INFO:Conexión a la base de datos fuente establecida
+2024-06-30 05:07:49,384:INFO:Leyendo configuración para la base de datos destino
+2024-06-30 05:07:49,384:INFO:Usando autenticación de Windows para la base de datos destino
+2024-06-30 05:07:49,384:INFO:Conexión a la base de datos destino establecida
+2024-06-30 05:07:49,384:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-06-30 05:07:49,462:INFO:Archivos SQL leídos correctamente
+2024-06-30 05:07:49,467:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-06-30 05:08:22,083:INFO:Datos cargados a DataFrames correctamente
+2024-06-30 05:08:22,083:INFO:Leyendo archivo sql para eliminar datos en tablas dimensionales
+2024-06-30 05:08:22,335:INFO:Datos eliminados en tablas dimensionales
+2024-06-30 05:08:22,335:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-06-30 05:08:40,901:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-07-05 18:35:52,755:INFO:Leyendo configuración para la base de datos fuente
+2024-07-05 18:35:52,755:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-07-05 18:35:52,785:INFO:Conexión a la base de datos fuente establecida
+2024-07-05 18:35:52,785:INFO:Leyendo configuración para la base de datos destino
+2024-07-05 18:35:52,785:INFO:Usando autenticación de Windows para la base de datos destino
+2024-07-05 18:35:52,785:INFO:Conexión a la base de datos destino establecida
+2024-07-05 18:35:52,785:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-07-05 18:35:52,837:INFO:Archivos SQL leídos correctamente
+2024-07-05 18:35:52,837:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-07-05 18:36:29,971:INFO:Datos cargados a DataFrames correctamente
+2024-07-05 18:36:29,987:INFO:Leyendo archivo sql para eliminar datos en tablas dimensionales
+2024-07-05 18:36:31,855:INFO:Datos eliminados en tablas dimensionales
+2024-07-05 18:36:31,863:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-07-05 18:37:03,026:INFO:Datos insertados en las tablas dimensionales correctamente
+2024-07-07 09:43:29,037:INFO:Leyendo configuración para la base de datos fuente
+2024-07-07 09:43:29,053:INFO:Usando autenticación de Windows para la base de datos fuente
+2024-07-07 09:43:29,068:INFO:Conexión a la base de datos fuente establecida
+2024-07-07 09:43:29,068:INFO:Leyendo configuración para la base de datos destino
+2024-07-07 09:43:29,068:INFO:Usando autenticación de Windows para la base de datos destino
+2024-07-07 09:43:29,068:INFO:Conexión a la base de datos destino establecida
+2024-07-07 09:43:29,068:INFO:Leyendo archivos SQL para las tablas dimensionales
+2024-07-07 09:43:29,131:INFO:Archivos SQL leídos correctamente
+2024-07-07 09:43:29,131:INFO:Ejecutando consultas y cargando datos a DataFrames
+2024-07-07 09:43:56,994:INFO:Datos cargados a DataFrames correctamente
+2024-07-07 09:43:56,997:INFO:Leyendo archivo sql para eliminar datos en tablas dimensionales
+2024-07-07 09:43:58,687:INFO:Datos eliminados en tablas dimensionales
+2024-07-07 09:43:58,687:INFO:Insertando datos en las tablas dimensionales de la base de datos destino
+2024-07-07 09:44:23,873:INFO:Datos insertados en las tablas dimensionales correctamente
